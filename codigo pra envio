@@ -1,0 +1,109 @@
+CODIGO EM CSS 
+
+/*corpo para paginas de textos*/
+#btexto{
+    background-color: rgba(141, 140, 158, 0.5);
+    font-family: 'calibri', sans-serif;
+    margin-bottom: 0px;
+}
+
+/*parte do textos*/
+section{
+    background-color: rgb(141, 140, 158);
+    padding:10px;
+    width: 95%;
+    margin: 2px 0px -20px 30px;
+}
+
+/*Configuração com fieldset, figure e imagem*/
+fieldset{
+    width: 80%;
+    margin-left: 10%;
+}
+fieldset.empe{
+    width: 60%;
+    margin-left: 20%;
+}
+figure.foto-legenda{
+    position: center;
+    border: 8px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 4px black;
+    width: 60%;
+    margin-left: 16%;
+    
+}
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+
+}
+
+/*coloquei no "p" normal pra facilitar*/
+p{
+    position: relative;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* tudo pra carregar pra mobile*/
+@media (max-width:800px){
+    .postagem_lista_item{
+        border: gray 2px solid;
+        border-radius: 10px;
+        inline-size: 450px;
+        margin-left: 10px;
+    }
+    .postagem_lista_item2{
+        border: gray 2px solid;
+        border-radius: 10px;
+        inline-size: 450px;
+        margin-left: 10px;
+    }
+    .postagem_lista_item3{
+        border: gray 2px solid;
+        border-radius: 10px;
+        inline-size: 450px;
+        margin-left: 10px;
+    }
+
+    
+    #noticia{
+
+        margin: 30px 10px 55px 215px;
+        box-sizing: border-box;
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        
+    }
+    fieldset.empe{
+        width: 100%;
+        margin-left: 0%;
+    }
+    fieldset{
+        width: 100%;
+        margin-left: 0;
+    }
+    figure.foto-legenda{
+        position: center;
+        border: 8px solid rgb(255, 255, 255);
+        box-shadow: 1px 1px 4px black;
+        width: 100%;
+        margin-left: 0;
+        
+    }
+    #logo{
+        text-align: center 10px;
+        margin-left: 150px;
+        margin-top: 20px;
+        font-size: 30px;
+      }
+      #logosite2{
+        width: 150px;
+        padding-top: 3px;
+        margin-top: -110px;
+        margin-left: 10px;
+      }
+    
+
+   
+}
